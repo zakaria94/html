@@ -1,0 +1,60 @@
+.container{
+    width:90%;
+    margin: auto;
+}
+
+ul li {
+    list-style-type: none;
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    padding-top: 10px;
+    text-align: center;
+    word-spacing: 30px;
+}
+
+h1.container {
+    padding: 40px;
+    text-align: center;
+}
+
+.position {
+    text-align: center;
+    display: inline;
+    padding-bottom: 100px;
+
+}
+
+div.realtive {
+    position: relative;
+}
+
+div.absolute {
+    position: absolute;
+    bottom:100px;
+    padding: 20px;
+}
+
+.size {
+    height: 200px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+fieldset {
+    background-color:  #f2f2f2;
+}
+
+ol li {
+    list-style-type: decimal;
+}

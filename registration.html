@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Registrtion</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="css/mystyle.css"
+    />
+    <script src="main.js"></script>
+  </head>
+  <body>
+    <fieldset class="container">
+      <div>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html#about">About</a></li>
+          <li><a href="contact.html#contact">Contact</a></li>
+          <li><a href="registration.html">Registration</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="articls.html">Articls</a></li>
+          <li><a href="cv.html">CV</a></li>
+        </ul>
+      </div>
+    </fieldset>
+    <div class="container">
+      <fieldset>
+        <legend>Registrtion Form</legend>
+        <form action="">
+          <table>
+            <tr>
+              <td><label for="UserName">UserName</label></td>
+              <td>
+                <input
+                  type="text"
+                  id="UserName"
+                  placeholder="Your Name"
+                  tabindex="1"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td><label for="mail">E-Mail</label></td>
+              <td>
+                <input
+                  type="email"
+                  id="mail"
+                  placeholder="Your E-Mail"
+                  autofocus
+                  tabindex="2"
+                  autocomplete="false"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td><label for="password">Password</label></td>
+              <td>
+                <input
+                  type="password"
+                  id="password"
+                  placeholder="Password"
+                  tabindex="3"
+                  required
+                />
+              </td>
+            </tr>
+            <tr>
+              <td><label for="mobile">Mobile</label></td>
+              <td>
+                <input type="tel" id="mobile" placeholder="Your Mobile" />
+              </td>
+            </tr>
+            <tr>
+              <td><label for="website">Website</label></td>
+              <td>
+                <input type="url" id="website" placeholder="Your Website" />
+              </td>
+            </tr>
+            <tr>
+              <td><label for="age">Age</label></td>
+              <td>
+                <input type="number" id="age" min="10" placeholder="Your Age" />
+              </td>
+            </tr>
+            <tr>
+              <td><label for="date">Hire Date</label></td>
+              <td><input type="date" id="date" required /></td>
+            </tr>
+            <tr>
+              <td><label for="arrival">Arrival Time</label></td>
+              <td><input type="time" id="arrival" /></td>
+            </tr>
+            <tr>
+              <td><label>CV</label></td>
+              <td><input type="file" /></td>
+            </tr>
+            <tr>
+              <td><label>Language Level</label></td>
+              <td><input type="range" min="0" max="10" step="5" /></td>
+            </tr>
+          </table>
+          <label
+            >Gender
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label
+          >
+          <label>Male</label>
+          <input type="radio" name="x" checked />
+          <label>female</label>
+          <input type="radio" name="x" /><br />
+          <label>Skills</label>
+          <label
+            >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            C#</label
+          >
+          <input type="checkbox" />
+          <label>Sql</label>
+          <input type="checkbox" />
+          <label>Html</label>
+          <input type="checkbox" /><br />
+          <label
+            >Country
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label
+          >
+          <select>
+            <option value="0">Choose your country</option>
+            <optgroup label="Category-A">
+              <option value="1">Egypt</option>
+              <option value="2">Sudan</option>
+            </optgroup>
+            <optgroup label="Category-B">
+              <option value="3" selected>Quater</option>
+            </optgroup></select
+          ><br /><br />
+          <input
+            type="reset"
+            value="Cancle"
+            style="float: left"
+          />&nbsp;&nbsp;&nbsp;&nbsp;
+          <input type="submit" value="submit" />
+        </form>
+      </fieldset>
+    </div>
+  </body>
+</html>
